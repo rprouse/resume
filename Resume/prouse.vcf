@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Rob Prouse
+N:Prouse;Rob;;;
+EMAIL;TYPE=INTERNET;TYPE=HOME:rob@prouse.org
+item1.X-ICQ:AOL ICQ\: 722762722762
+item1.X-ABLabel:AOL ICQ: 722762722762
+TEL;TYPE=HOME:(905) 544-9478
+TEL;TYPE=CELL:(905) 320-7861
+ADR;TYPE=HOME:;;175 Beach Blvd;Hamilton;ON;L8H 6V8;
+BDAY:1968-04-08
+item2.URL:http\://www.alteridem.net
+item2.X-ABLabel:_$!<HomePage>!$_
+END:VCARD
