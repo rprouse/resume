@@ -54,6 +54,7 @@
     <Content Include="assets\fonts\josefinslab-light-webfont.eot" />
     <Content Include="assets\fonts\josefinslab-light-webfont.ttf" />
     <Content Include="assets\fonts\josefinslab-light-webfont.woff" />
+    <Content Include="prouse.vcf" />
     <Content Include="sass\main.scss" />
     <Content Include="sass\modules\_mixins.scss" />
     <Content Include="sass\modules\_variables.scss" />
