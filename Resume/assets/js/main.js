@@ -15,8 +15,8 @@
 		if( $('.map-canvas').length > 0) {
 			
 			var geocoder = new google.maps.Geocoder();
-			var address = 'Google New York, 76 Ninth Ave, New York, NY, USA';
-			var contentString = '<div class="map-detail"><strong>Our Office:</strong><p>' + address + '</p></div>';
+			var address = '175 Beach Blvd, Hamilton, Ontario, Canada L8H 6V8';
+			var contentString = '<div class="map-detail"><strong>Address:</strong><p>' + address + '</p></div>';
 			
 			geocoder.geocode({'address': address }, function(results, status) {
 				if(status == google.maps.GeocoderStatus.OK) { 
@@ -27,7 +27,7 @@
 						jQuery('.map-canvas').gmap('addMarker', {'position': latitude+','+longitude, 'bounds': true}).click(function() {
 							jQuery('.map-canvas').gmap('openInfoWindow', {'content': contentString}, this);
 						});
-						jQuery('.map-canvas').gmap('option', 'zoom', 8);
+						jQuery('.map-canvas').gmap('option', 'zoom', 10);
 					});
 				}else { alert('Google Maps had some trouble finding the address. Status: ' + status); }
 			});

@@ -19,12 +19,12 @@ if( isset($_POST['msg-submitted']) ) {
 		$emailError = 'Please provide your email address.';
 		$hasError = true;
 	} else if( !preg_match("/^[[:alnum:]][a-z0-9_.-]*@[a-z0-9.-]+\.[a-z]{2,4}$/i", trim($email)) ) {
-		$emailError = 'Please provide valid email address.';
+		$emailError = 'Please provide a valid email address.';
 		$hasError = true;
 	}
 
 	if( trim($message) === '' ) {
-		$messageError = "Please provide your message.";
+		$messageError = "Please include a message.";
 		$hasError = true;
 	} else {
 		if( function_exists( 'stripslashes' ) ) {
@@ -34,14 +34,14 @@ if( isset($_POST['msg-submitted']) ) {
 		
 	if(!isset($hasError)) {
 		
-		$emailTo = 'youremail@domain.com';
-		$subject = 'New Submitted Message From: ' . $name;
+		$emailTo = 'rob@prouse.org';
+		$subject = 'Resume Message From: ' . $name;
 		$body = "Name: $name \n\nEmail: $email \n\nMessage: $message";
 		$headers = 'From: ' .' <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $email;
 
 		mail($emailTo, $subject, $body, $headers);
         
-        $message = 'Thank you ' . $name . ', your message has been submitted.';
+    $message = 'Thank you ' . $name . ', your message has been submitted.';
 		$result = true;
 	
 	} else {
