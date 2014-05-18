@@ -54,6 +54,10 @@
     <Content Include="assets\fonts\josefinslab-light-webfont.eot" />
     <Content Include="assets\fonts\josefinslab-light-webfont.ttf" />
     <Content Include="assets\fonts\josefinslab-light-webfont.woff" />
+    <Content Include="assets\img\projects\AEdit2.gif" />
+    <Content Include="assets\img\projects\baccarat.gif" />
+    <Content Include="assets\img\projects\gpsplot.gif" />
+    <Content Include="assets\img\projects\tod9.jpg" />
     <Content Include="prouse.vcf" />
     <Content Include="sass\main.scss" />
     <Content Include="sass\modules\_mixins.scss" />
@@ -91,8 +95,6 @@
     <Content Include="assets\img\hero-bg.png" />
     <Content Include="assets\img\profile-picture.png" />
     <Content Include="assets\img\project-bg.png" />
-    <Content Include="assets\img\projects\big-thing-landing-page.png" />
-    <Content Include="assets\img\projects\tiick-tock-coming-soon-page.png" />
     <Content Include="assets\img\skills.png" />
     <Content Include="assets\img\vertical-line.png" />
     <Content Include="assets\js\bootstrap.min.js" />
