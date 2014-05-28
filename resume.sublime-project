@@ -1,0 +1,27 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"Resume.sln",
+				"resume.sublime-project",
+				"Resume/Resume.csproj",
+				"Resume/Resume.csproj.user",
+				"Resume/Web.Debug.config",
+				"Resume/Web.Release.config",
+				"Resume/Web.config"
+			],
+			"folder_exclude_patterns":
+			[
+				"Resume/.sass-cache",
+				"Resume/bin",
+				"Resume/obj",
+				"Resume/Properties",
+				"Resume/sass/.sass-cache"
+			],
+			"follow_symlinks": true,
+			"path": "."
+		}
+	]
+}
