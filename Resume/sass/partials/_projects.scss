@@ -8,7 +8,7 @@
 	@include background-size(cover);
 
 	background: {
-		image: image-url("project-bg.png");
+		image: image-url("project-bg.jpg");
 		repeat: no-repeat;
 		background-color: $projects-bg-color;
 	} 

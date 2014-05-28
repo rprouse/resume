@@ -62,7 +62,8 @@
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
 
-*.js	text  eol=lf
-*.php	text  eol=lf
-*.css	text  eol=lf
-*.sublime-*   eol=lf
+*.js	    text  eol=lf
+*.php	    text  eol=lf
+*.css	    text  eol=lf
+*.scss      text  eol=lf
+*.sublime-* text  eol=lf
