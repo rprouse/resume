@@ -15,7 +15,7 @@
 		if( $('.map-canvas').length > 0) {
 			
 			var geocoder = new google.maps.Geocoder();
-			var address = '175 Beach Blvd, Hamilton, Ontario, Canada L8H 6V8';
+			var address = 'Hamilton, Ontario, Canada';
 			var contentString = '<div class="map-detail"><strong>Address:</strong><p>' + address + '</p></div>';
 			
 			geocoder.geocode({'address': address }, function(results, status) {
